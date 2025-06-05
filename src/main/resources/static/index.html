@@ -95,9 +95,13 @@
         <section id="overview" class="mb-5">
             <h2>Overview</h2>
             <p class="lead">
-                Spring Actions is a powerful framework that enables your Spring Boot applications to communicate with AI agents through multiple protocols. The framework supports both Google's Agent-to-Agent (A2A) protocol and Anthropic's Model Context Protocol (MCP).
+                This project demonstrates how to compare cars and employees, and also how to get to know people's favourite food using AI-driven services. It leverages the <strong>Spring Action</strong> and <strong>a2ajava</strong> frameworks to expose business logic as AI-accessible tools.
+                <br><br>
+                <strong>Comparison Services:</strong> The application includes <code>CompareCarService</code> for comparing cars and <code>EmployeeComparatorService</code> for comparing employees. These services use Spring Action annotations and the a2ajava framework to make comparison logic available to AI agents via A2A and MCP protocols. You can easily extend these services to compare other entities by following the same pattern.
+                <br><br>
+                <strong>Favourite Food Service:</strong> The project also provides a way to discover a person's favourite food, showcasing how to integrate custom business logic and expose it to AI agents.
+                <br><br>
                 <a href="https://github.com/vishalmysore/a2ajava" target="_blank">a2ajava</a> is a Swiss Army knife for building agentic applications. It is multi-protocol — works seamlessly with both A2A (Agent-to-Agent) and MCP (Model Context Protocol). It is multi-language — supports Java, Kotlin, and Groovy. It is multi-platform — compatible with Gemini, OpenAI, Claude, and Grok. It is multi-client — includes A2A and MCP clients with connectors in Java, Node, and Python. It offers multi-integration — out-of-the-box support for Selenium, human-in-the-loop workflows, and multi-LLM voting for consensus-based decision making. Agents built using the A2A protocol with a2ajava run seamlessly on MCP as well, ensuring maximum interoperability across platforms.
-
             </p>
             <div class="row mt-4">
                 <div class="col-md-6">

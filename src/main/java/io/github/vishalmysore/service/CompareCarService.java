@@ -2,15 +2,9 @@ package io.github.vishalmysore.service;
 
 import com.t4a.annotations.Action;
 import com.t4a.annotations.Agent;
-
-import com.t4a.api.JavaMethodAction;
-
 import com.t4a.detect.ActionCallback;
 import com.t4a.detect.ActionState;
 import com.t4a.processor.AIProcessor;
-import io.github.vishalmysore.a2a.domain.Task;
-import io.github.vishalmysore.a2a.domain.TaskState;
-import io.github.vishalmysore.common.CallBackType;
 import lombok.extern.java.Log;
 import org.springframework.stereotype.Service;
 
